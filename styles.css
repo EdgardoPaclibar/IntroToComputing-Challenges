@@ -37,6 +37,14 @@ nav ul li{
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
+#one{
+    font-weight: bold;
+    color: blue
+}
+.two{
+    font-weight: bolder;
+    color: red;
+}
 
 .offer{
     background: radial-gradient(#fff,#ffd6d6);
