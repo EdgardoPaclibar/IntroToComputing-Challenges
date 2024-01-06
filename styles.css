@@ -67,3 +67,32 @@ nav ul li{
     margin-bottom: 20px;
     color: white;
 }
+
+@media only screen and (max-width: 600px){
+    .header nav ul{
+        width: 50%;
+    }
+    .header nav ul li{
+        width: 50%;
+        text-align: center;
+    }
+    .header .navbar h1 {
+        width: 50%;
+        text-align: center;
+    }
+    .header .intro h1 {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .header .intro p {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .header .intro button {
+        width: 50%;
+        position: relative;
+        left: 100px;
+    }
+}

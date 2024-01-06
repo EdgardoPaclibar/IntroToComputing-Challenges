@@ -1,0 +1,1 @@
+Sir, I have previously employed External CSS in my prior activities, as it is a method I am most comfortable with and have extensively learned through W3Schools
