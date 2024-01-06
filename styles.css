@@ -20,6 +20,46 @@ nav ul li{
     cursor: pointer;
 }
 
+.videoPlayer {
+    position: relative;
+    left: 785px;
+}
+
+.form {
+    width: 300px;
+    padding: 20px;
+    background: #f2f2f2;
+    margin: 0 auto;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .form button:hover {
+    background-color: #45a049;
+  }
+
+
 .categories{
     margin: 70px 0;
 }
