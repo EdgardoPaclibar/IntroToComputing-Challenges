@@ -91,9 +91,28 @@ nav ul li{
     margin-top: 80px;
     padding: 30px 0;
 }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
+}
+.col-2 img{
+    max-width: 120%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: black;
+}
+.col-2 p{
+    color: black;
 }
 
 .footer{
@@ -110,29 +129,29 @@ nav ul li{
 
 @media only screen and (max-width: 600px){
     .header nav ul{
-        width: 50%;
+        width: 100%;
     }
     .header nav ul li{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
     .header .navbar h1 {
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
-    .header .intro h1 {
+    .header .row h1 {
         width: 100%;
         position: relative;
         text-align: center;
     }
-    .header .intro p {
+    .header .row p {
         width: 100%;
         position: relative;
         text-align: center;
     }
-    .header .intro button {
+    .header .row button {
         width: 50%;
         position: relative;
-        left: 100px;
+        left: 70px;
     }
 }
